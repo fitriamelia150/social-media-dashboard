@@ -21,6 +21,7 @@ module.exports = {
         'Bg-Very-Dark-Blue': 'hsl(230, 17%, 14%)',
         'TopBgPattern-Very-Dark-Blue': 'hsl(232, 19%, 15%)',
         'CardBg-Dark-Desaturated-Blue': 'hsl(228, 28%, 20%)',
+        'CardBg-Dark-Desaturated-Blue-hover': 'hsl(228, 28%, 25%)',
         'Text-Desaturated Blue': 'hsl(228, 34%, 66%)',
         'Text-White': 'hsl(0, 0%, 100%)',
         'toggle-grad-from': 'hsl(210, 78%, 56%)',

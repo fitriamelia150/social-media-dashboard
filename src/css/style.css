@@ -566,9 +566,20 @@ video {
   border-radius: 5px
 }
 
+.card-dashboard:hover {
+  cursor: pointer;
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 .card-dashboard:where(.dark, .dark *) {
   --tw-bg-opacity: 1;
   background-color: hsl(228 28% 20% / var(--tw-bg-opacity));
+}
+
+.card-dashboard:hover:where(.dark, .dark *) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(228 28% 25% / var(--tw-bg-opacity));
 }
 
 .icon {
@@ -641,9 +652,20 @@ video {
   padding: 1.25rem;
 }
 
+.card:hover {
+  cursor: pointer;
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 .card:where(.dark, .dark *) {
   --tw-bg-opacity: 1;
   background-color: hsl(228 28% 20% / var(--tw-bg-opacity));
+}
+
+.card:hover:where(.dark, .dark *) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(228 28% 25% / var(--tw-bg-opacity));
 }
 
 .card-label {

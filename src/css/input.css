@@ -15,7 +15,7 @@
         padding: 20px;
         gap: 20px;
         border-radius: 5px;
-        @apply dark:bg-CardBg-Dark-Desaturated-Blue
+        @apply dark:bg-CardBg-Dark-Desaturated-Blue hover:bg-slate-300 dark:hover:bg-CardBg-Dark-Desaturated-Blue-hover hover:cursor-pointer
     }
 
     .icon {
@@ -51,7 +51,7 @@
     }
 
     .card {
-        @apply w-[250px] bg-Light-Grayish-Blue flex justify-between flex-col items-center p-5 gap-3 rounded-md  dark:bg-CardBg-Dark-Desaturated-Blue
+        @apply w-[250px] bg-Light-Grayish-Blue flex justify-between flex-col items-center p-5 gap-3 rounded-md  dark:bg-CardBg-Dark-Desaturated-Blue hover:bg-slate-300 dark:hover:bg-CardBg-Dark-Desaturated-Blue-hover hover:cursor-pointer
     }
 
     .card-label {
